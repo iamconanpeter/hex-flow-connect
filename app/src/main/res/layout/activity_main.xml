@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Hex Flow Connect" android:padding="8dp" android:textColor="#FFFFFF"/>
+    <com.gamefactory.hexflowconnect.HexBoardView android:id="@+id/hexBoard"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="8dp">
+        <Button android:id="@+id/undoBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Undo" android:layout_weight="1"/>
+        <Button android:id="@+id/restartBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Board" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

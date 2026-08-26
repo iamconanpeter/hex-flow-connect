@@ -1,101 +1,25 @@
-# Hex Flow Connect - Game Specification
+# Hex Flow Connect — Plan Mode Spec (ConceptRank 19)
 
-## USP
-Single-stroke hex-grid path puzzle with uniquely spatial reasoning that leverages honeycomb topology for fresh puzzle mechanics.
+## Q&A Discovery (derived assumptions marked [A])
 
-## 3 Differentiators
-1. First hex-grid single-stroke puzzle on Android with color mixing mechanics
-2. Daily seeded boards with par-move mastery tracking  
-3. Color-blind safe palettes with accessibility-focused design
+1. **Core fantasy / 10-second hook:** Draw a single continuous line through a hex honeycomb, connecting matching colored nodes. Every tap extends the path; one wrong move forces restart. [A] Hook: "Can you see the line through the hive?"
+2. **Retention loops:** Daily seeded boards (new layout each day), par-move mastery (3-star per board), progressive palette unlocks. [A]
+3. **Session length target:** 1–3 min (short commute play). [A]
+4. **Skill vs luck balance:** 90% skill (path-planning, color-mixing rules), 10% luck (starting node randomization within seed). [A]
+5. **Fail-state fairness:** One undo token per board; failure = immediate restart (fast loop). [A]
+6. **Difficulty ramp / onboarding:** 3-tutorial hex board → simple 2-node path → 4-node color-mix. [A]
+7. **Distinctive mechanic vs Android clones:** Hex topology + single-stroke constraint vs square-grid line-draw clones. [A]
+8. **Art/animation scope:** Flat geometric hex grid, smooth line-draw stroke, subtle particle clear effects, color-blind safe palettes (high contrast + shapes). [A] Small-team feasible.
+9. **Audio/feedback plan:** Tap click (subtle), line extends (soft tone), color-match (ascending chime), fail (low tone). [A]
+10. **Monetization-safe design:** No dark patterns; optional reward for undo token via short ad (opt-in), no energy limits. [A]
+11. **Technical constraints / performance budget:** Android SDK 21+, 2D Canvas, <10MB install, no network required for core mode. [A]
 
-## 3 Retention Hooks
-1. Daily seeded boards encouraging multiple play sessions
-2. Par-move mastery system with achievement badges
-3. Community shared puzzle packs
-
-## 3 Quality Bars
-1. Smooth line-drawing physics with zero latency
-2. Color theory-based puzzles that feel intellectually satisfying
-3. Pixel-perfect visual effects for combo triggers
-
-# Q&A Discovery
-
-## Core fantasy and 10-second hook
-Connect matching colored nodes across a honeycomb board in a single continuous stroke, creating aesthetically pleasing patterns while managing blockers and bridges.
-
-## Why users come back (daily/weekly loop)
-- Daily seeded puzzle packs that reset at midnight UTC
-- Leaderboards showing best par-move performance
-- Collectible color palettes that unlock new visual themes
-
-## Session length targets
-- 30s: Quick daily puzzle completion
-- 2m: Solving challenging medium-bloom puzzles
-- 5m: Mastering complex endgame configurations
-
-## Fail-state fairness and frustration controls
-- No "dead end" situations - always have a path forward
-- Movement-based scoring means players can try different approaches
-- Undo system for one backtrack per level
-
-## Difficulty ramp and onboarding
-- 50 tutorial levels teaching hex-grid mechanics
-- Gradual introduction of blockers, bridges, and color mixing
-- First 10 puzzles auto-generate with large open play fields
-
-## Distinctive mechanic vs common Android clones
-- Unique hex topology creates true "spatial reasoning" vs square-grid path games
-- Color mixing mechanic where blended colors create new interaction rules
-- Single-stroke constraint that forces planning and efficient paths
-
-## Art/animation scope feasible for small team
-- Simple geometric shapes with a limited color palette (max 6 player colors)
-- Line-drawing animation with particle effects on connections
-- Minimal UI with clean typography and smooth transitions
-
-## Audio/feedback plan
-- Subtle chime for successful connection
-- Rising tone for completed color sets
-- Satisfactory "popping" sound for cleared combos
-- Ambient hexographic hum for puzzle states
-
-## Monetization-safe design (optional, no dark patterns)
-- All content free with optional cosmetic unlocks
-- Daily puzzle packs expand organically
-- No paywalls on core gameplay
-- Optional ad-free premium skin pack for $1.99
-
-## Technical constraints and performance budgets
-- Target 60 FPS on mid-tier devices (Android 8.0+)
-- All game logic runs client-side with no server dependency
-- Data file size < 1.5MB for distribution
-- Memory footprint under 100MB
-
-# Development Items In Plan Mode
-
-## Differentiation + Retention Checklist
-USP: Single-stroke hex-grid path puzzle with uniquely spatial reasoning
-
-3 Differentiators:
-1. First hex-grid single-stroke puzzle on Android with color mixing
-2. Daily seeded boards with par-move mastery tracking
-3. Color-blind safe palettes with accessibility-first design
-
-3 Retention Hooks:
-1. Daily seeded puzzles with global reset
-2. Leaderboards for best par-move performance
-3. Collectible color palettes unlocking new visual themes
-
-3 Quality Bars:
-1. Smooth line-drawing physics with zero latency
-2. Color theory-based puzzles with intellectual satisfaction
-3. Pixel-perfect visual effects for combo triggers
+## Differentiation Checklist
+- USP: Hex topology + single-stroke path creates uniquely spatial reasoning vs square-grid clones.
+- 3 differentiators: (1) Hex topology, (2) Single-stroke constraint, (3) Color-mixing rules
+- 3 retention hooks: Daily seeded boards, par-movement mastery (3-star), progressive palette unlock
+- 3 quality bars: Readable hex grid, smooth line-draw feedback, satisfying color-clear effects
 
 ## MVP Scope Guardrail
-Post-MVP features:
-[Post-Multiplayer Social] [Seasonal theme events] [Player-to-player puzzle sharing]
-
-## Test Strategy
-- Unit tests for board generation and path validation logic
-- Integration tests for color mixing mechanics
-- Quantum style stress test for performance on low-end devices
+- MVP: 10 tutorial/campaign boards + 1 daily-seed mode + basic scoring + 1 undo token. Post-MVP: level editor, online leaderboard, more palettes.
+- No scope creep before green `gradlew test assembleDebug`.

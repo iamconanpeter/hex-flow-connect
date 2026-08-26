@@ -1,0 +1,4 @@
+// codex CLI: codex exec (plan) + manual MVP (auth fallback)
+- Plan mode enforced via codex CLI (openai-codex/gpt-5.3-codex) for docs/spec.md, technical-plan.md, tasks.md
+- MVP Kotlin MainActivity + test stub added
+- Validation command: ./gradlew test (gradlew present)
