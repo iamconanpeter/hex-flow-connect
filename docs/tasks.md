@@ -1,13 +1,14 @@
-# Tasks — Hex Flow Connect
+# Hex Flow Connect — Tasks
 
-## Dependencies / Priorities
-- P0: Project scaffold + HexBoard model + PathValidator (core logic)
-- P1: Hex grid rendering + touch handler (draw line through nodes)
-- P2: Daily seed mode + undo token + basic scoring (star rating)
-- P3: Unit tests (14 tests) + `gradlew test assembleDebug`
-- P4: Push repo `iamconanpeter/hex-flow-connect` + update tracking files
+## Plan-Mode Gate (done via codex CLI)
+- [x] spec.md with Q&A discovery
+- [x] technical-plan.md
+- [x] tasks.md (this file)
 
-## Gates
-- Spec, technical-plan, tasks complete ✓
-- All 14 unit tests green before push
-- Build artifact `assembleDebug` green before push
+## MVP Tasks (prioritized)
+1. Clean duplicate package sources → single canonical package `com.gamefactory.hexflowconnect`
+2. Expand HexBoardTest (14 cases) → add PathValidator + SeededBoardFactory tests
+3. Run `./gradlew test assembleDebug` (green required)
+4. Push repo to iamconanpeter/hex-flow-connect
+
+Codex CLI evidence: `codex exec` planned docs; `gradlew` validates build.
