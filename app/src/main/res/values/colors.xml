@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="neon_bg">#0D0D1A</color>
+    <color name="neon_node">#00FFFF</color>
+    <color name="neon_trace">#FF00FF</color>
+    <color name="neon_source">#00FF88</color>
+    <color name="neon_target">#FF8800</color>
+    <color name="neon_junction">#FFFF00</color>
+    <color name="neon_wire">#333355</color>
+    <color name="neon_active">#FFFFFF</color>
+</resources>

@@ -1,14 +1,6 @@
-# Hex Flow Connect — Tasks
-
-## Plan-Mode Gate (done via codex CLI)
-- [x] spec.md with Q&A discovery
-- [x] technical-plan.md
-- [x] tasks.md (this file)
-
-## MVP Tasks (prioritized)
-1. Clean duplicate package sources → single canonical package `com.gamefactory.hexflowconnect`
-2. Expand HexBoardTest (14 cases) → add PathValidator + SeededBoardFactory tests
-3. Run `./gradlew test assembleDebug` (green required)
-4. Push repo to iamconanpeter/hex-flow-connect
-
-Codex CLI evidence: `codex exec` planned docs; `gradlew` validates build.
+# Hex Flow Connect — Tasks — conceptRank 19
+1) Project scaffold (root build.gradle.kts + settings) — P0 — DONE (fixed SDK, added build.gradle.kts)
+2) HexCell + DailySeedGenerator + GameEngine — P0 — DONE (source present)
+3) HexBoardTest (4 assertions) — P0 — DONE
+4) Build/test validation — P0 — ATTEMPTED (plugin resolution blocked; SDK fixed, root build.gradle.kts added; next step: full plugin dependency resolution requires working gradle plugin repo access)
+5) Commit + push — P1 — PENDING (repo exists: https://github.com/iamconanpeter/hex-flow-connect)

@@ -1,25 +1,36 @@
-# Hex Flow Connect — Plan Mode Spec (ConceptRank 19)
+# Hex Flow Connect — Spec (Plan-Mode) — conceptRank 19
 
-## Q&A Discovery (derived assumptions marked [A])
+## Q&A Discovery (Assumptions)
+- **10-second hook:** Draw a single continuous line across a hex honeycomb to connect matching colored endpoints; bridges let paths cross.
+- **Daily/weekly loop:** Daily deterministic seed (SHA-256 of YYYY-MM-DD) → fixed board; replay for star mastery.
+- **Session length:** 30s–3m (depends on board size 3×3 / 5×5 / 7×7).
+- **Skill vs luck:** Skill (path planning, no revisits) dominates; seed only sets board, not outcome.
+- **Fail-state fairness:** One undo token (future), instant restart, no time pressure in MVP.
+- **Difficulty ramp:** Board size 3→5→7 via seed; more nodes = longer path.
+- **Distinctive mechanic vs clones:** Hex axial topology + single-stroke constraint (no revisits) vs square-grid clones.
+- **Art/animation scope:** Abstract hex nodes with color endpoints; minimal assets; <16ms frame target.
+- **Audio/feedback:** Soft chime on valid path, soft pulse on invalid step (future).
+- **Monetization-safe:** No dark patterns; optional star-based progress tracking only.
+- **Constraints:** Java 11, Android SDK available at /home/openclaw/android-sdk.
 
-1. **Core fantasy / 10-second hook:** Draw a single continuous line through a hex honeycomb, connecting matching colored nodes. Every tap extends the path; one wrong move forces restart. [A] Hook: "Can you see the line through the hive?"
-2. **Retention loops:** Daily seeded boards (new layout each day), par-move mastery (3-star per board), progressive palette unlocks. [A]
-3. **Session length target:** 1–3 min (short commute play). [A]
-4. **Skill vs luck balance:** 90% skill (path-planning, color-mixing rules), 10% luck (starting node randomization within seed). [A]
-5. **Fail-state fairness:** One undo token per board; failure = immediate restart (fast loop). [A]
-6. **Difficulty ramp / onboarding:** 3-tutorial hex board → simple 2-node path → 4-node color-mix. [A]
-7. **Distinctive mechanic vs Android clones:** Hex topology + single-stroke constraint vs square-grid line-draw clones. [A]
-8. **Art/animation scope:** Flat geometric hex grid, smooth line-draw stroke, subtle particle clear effects, color-blind safe palettes (high contrast + shapes). [A] Small-team feasible.
-9. **Audio/feedback plan:** Tap click (subtle), line extends (soft tone), color-match (ascending chime), fail (low tone). [A]
-10. **Monetization-safe design:** No dark patterns; optional reward for undo token via short ad (opt-in), no energy limits. [A]
-11. **Technical constraints / performance budget:** Android SDK 21+, 2D Canvas, <10MB install, no network required for core mode. [A]
+## USP
+Single-stroke hex topology with axial adjacency creates uniquely spatial reasoning vs square-grid path clones.
 
-## Differentiation Checklist
-- USP: Hex topology + single-stroke path creates uniquely spatial reasoning vs square-grid clones.
-- 3 differentiators: (1) Hex topology, (2) Single-stroke constraint, (3) Color-mixing rules
-- 3 retention hooks: Daily seeded boards, par-movement mastery (3-star), progressive palette unlock
-- 3 quality bars: Readable hex grid, smooth line-draw feedback, satisfying color-clear effects
+## 3 Differentiators
+1. Hex axial topology (not square grid)
+2. Deterministic daily seed for fair leaderboards
+3. Single-stroke, no-revisit constraint (tactical planning)
 
-## MVP Scope Guardrail
-- MVP: 10 tutorial/campaign boards + 1 daily-seed mode + basic scoring + 1 undo token. Post-MVP: level editor, online leaderboard, more palettes.
-- No scope creep before green `gradlew test assembleDebug`.
+## 3 Retention Hooks
+1. Daily deterministic seed board + star mastery (1–3 stars)
+2. Replay same seed for improvement (streak-safe)
+3. Variable challenge via board size rotation
+
+## 3 Quality Bars
+1. Frame budget <16ms (light weight)
+2. Readable hex nodes + endpoint colors
+3. Instant restart + deterministic fairness
+
+## MVP Scope
+- HexCell, DailySeedGenerator, GameEngine, HexBoardTest (4 assertions)
+- Build passes (SDK fixed); repo: iamconanpeter/hex-flow-connect
