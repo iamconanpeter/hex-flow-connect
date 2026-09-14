@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gamefactory.neoncircuittrace.CircuitBoardTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-08-30T23:11:38" hostname="us16g.2tic.com" time="0.009">
+  <properties/>
+  <testcase name="sourceIsTopLeft" classname="com.gamefactory.neoncircuittrace.CircuitBoardTest" time="0.007"/>
+  <testcase name="targetIsBottomRight" classname="com.gamefactory.neoncircuittrace.CircuitBoardTest" time="0.0"/>
+  <testcase name="gridIsSixBySix" classname="com.gamefactory.neoncircuittrace.CircuitBoardTest" time="0.0"/>
+  <testcase name="neighborsAreRightAndDown" classname="com.gamefactory.neoncircuittrace.CircuitBoardTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

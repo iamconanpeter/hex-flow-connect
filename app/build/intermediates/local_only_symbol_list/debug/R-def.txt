@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color neon_active
+color neon_bg
+color neon_junction
+color neon_node
+color neon_source
+color neon_target
+color neon_trace
+color neon_wire
+id board
+id btnReplay
+id btnStart
+id btnUndo
+id root
+id score
+id status
+layout activity_main
+string app_name
+style Theme.AppCompat.Light.NoActionBar

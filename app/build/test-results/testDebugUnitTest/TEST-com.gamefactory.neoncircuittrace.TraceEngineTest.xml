@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gamefactory.neoncircuittrace.TraceEngineTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-08-30T23:11:38" hostname="us16g.2tic.com" time="0.021">
+  <properties/>
+  <testcase name="wrongOnBadNode" classname="com.gamefactory.neoncircuittrace.TraceEngineTest" time="0.014"/>
+  <testcase name="completeWhenFullMatch" classname="com.gamefactory.neoncircuittrace.TraceEngineTest" time="0.0"/>
+  <testcase name="scoreIsPositiveForFastRun" classname="com.gamefactory.neoncircuittrace.TraceEngineTest" time="0.004"/>
+  <testcase name="inProgressWhenTapMatchesPrefix" classname="com.gamefactory.neoncircuittrace.TraceEngineTest" time="0.0"/>
+  <testcase name="wrongOnOverTap" classname="com.gamefactory.neoncircuittrace.TraceEngineTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

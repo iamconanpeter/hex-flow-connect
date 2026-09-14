@@ -1,0 +1,193 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/openclaw/.gradle/caches/transforms-3/c3e6ca4432e3b1728bbb62dc25de4dd6/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/openclaw/.gradle/caches/transforms-3/ff3e7a6cbd6877b655429719bd7e51c8/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/openclaw/.gradle/caches/transforms-3/d8c51cc72187ec3386ede10b5dc6e424/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /home/openclaw/.gradle/caches/transforms-3/1602d517df1d2566051655fcc0af741d/transformed/activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/openclaw/.gradle/caches/transforms-3/24435aaf26a19d33c04b9b7e39e84dc6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/openclaw/.gradle/caches/transforms-3/4d5f9aa471e1d08b25948f577ac16ef1/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/openclaw/.gradle/caches/transforms-3/327d1fdc837bf6730385c38aad4a1922/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/openclaw/.gradle/caches/transforms-3/4fc76b59ec6ad5b54223fb01491314bd/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/openclaw/.gradle/caches/transforms-3/eb4fe120f154d2e1d1a52161fda20491/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/openclaw/.gradle/caches/transforms-3/9ce9cc9ec7a9ad1d10874dacacdbb4d1/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/openclaw/.gradle/caches/transforms-3/e7f9306e767e2d5fbfddd76ed304f07c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/openclaw/.gradle/caches/transforms-3/719e6720edfd492a857d7173fd2315ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/openclaw/.gradle/caches/transforms-3/57424ed27c8e7568fe16896b8cd45ca5/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/openclaw/.gradle/caches/transforms-3/6adb1280df8d4249bbb50c643cb52a14/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/openclaw/.gradle/caches/transforms-3/f16bbc16974032fd1ef2b5d3d6a31d0a/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/openclaw/.gradle/caches/transforms-3/91114efd43b3626b68fc39325cabc613/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/openclaw/.gradle/caches/transforms-3/cf8575fc1b02e13cd5b2e453a95cc11e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/openclaw/.gradle/caches/transforms-3/08be2a55cbdb328031620831336b2993/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/openclaw/.gradle/caches/transforms-3/845a56018dfe72f8cdc7621ffae85301/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/openclaw/.gradle/caches/transforms-3/0d2c5eac3751462b720a4fdec745a5b2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/openclaw/.gradle/caches/transforms-3/349718c988d7e0aa7e11038cd449c6cb/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/openclaw/.gradle/caches/transforms-3/de903ea69930e2cd1cec89a7c046184f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/openclaw/.gradle/caches/transforms-3/71d9f664f76814a26c405a63f4ba2b07/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/openclaw/.gradle/caches/transforms-3/42966fd5f1da7566290e60484e23c7f5/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/openclaw/.gradle/caches/transforms-3/4d308611c60b23a22143e1418b5d85d7/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/openclaw/.gradle/caches/transforms-3/8799a9309061b7bdd490cee70cc5331e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:3:5-16:19
+INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:3:5-16:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/openclaw/.gradle/caches/transforms-3/08be2a55cbdb328031620831336b2993/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/openclaw/.gradle/caches/transforms-3/08be2a55cbdb328031620831336b2993/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/openclaw/.gradle/caches/transforms-3/0d2c5eac3751462b720a4fdec745a5b2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/openclaw/.gradle/caches/transforms-3/0d2c5eac3751462b720a4fdec745a5b2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/openclaw/.gradle/caches/transforms-3/de903ea69930e2cd1cec89a7c046184f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/openclaw/.gradle/caches/transforms-3/de903ea69930e2cd1cec89a7c046184f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:5:9-43
+	android:allowBackup
+		ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:4:9-35
+	android:theme
+		ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:6:9-65
+activity#com.gamefactory.neoncircuittrace.MainActivity
+ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:7:9-15:20
+	android:screenOrientation
+		ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:10:13-49
+	android:exported
+		ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:9:13-36
+	android:name
+		ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:8:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:11:13-14:29
+action#android.intent.action.MAIN
+ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:12:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:13:17-77
+	android:name
+		ADDED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml:13:27-74
+uses-sdk
+INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml
+INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/openclaw/.gradle/caches/transforms-3/c3e6ca4432e3b1728bbb62dc25de4dd6/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/openclaw/.gradle/caches/transforms-3/c3e6ca4432e3b1728bbb62dc25de4dd6/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/openclaw/.gradle/caches/transforms-3/ff3e7a6cbd6877b655429719bd7e51c8/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/openclaw/.gradle/caches/transforms-3/ff3e7a6cbd6877b655429719bd7e51c8/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/openclaw/.gradle/caches/transforms-3/d8c51cc72187ec3386ede10b5dc6e424/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/openclaw/.gradle/caches/transforms-3/d8c51cc72187ec3386ede10b5dc6e424/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /home/openclaw/.gradle/caches/transforms-3/1602d517df1d2566051655fcc0af741d/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /home/openclaw/.gradle/caches/transforms-3/1602d517df1d2566051655fcc0af741d/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/openclaw/.gradle/caches/transforms-3/24435aaf26a19d33c04b9b7e39e84dc6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/openclaw/.gradle/caches/transforms-3/24435aaf26a19d33c04b9b7e39e84dc6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/openclaw/.gradle/caches/transforms-3/4d5f9aa471e1d08b25948f577ac16ef1/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/openclaw/.gradle/caches/transforms-3/4d5f9aa471e1d08b25948f577ac16ef1/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/openclaw/.gradle/caches/transforms-3/327d1fdc837bf6730385c38aad4a1922/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/openclaw/.gradle/caches/transforms-3/327d1fdc837bf6730385c38aad4a1922/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/openclaw/.gradle/caches/transforms-3/4fc76b59ec6ad5b54223fb01491314bd/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /home/openclaw/.gradle/caches/transforms-3/4fc76b59ec6ad5b54223fb01491314bd/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/openclaw/.gradle/caches/transforms-3/eb4fe120f154d2e1d1a52161fda20491/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/openclaw/.gradle/caches/transforms-3/eb4fe120f154d2e1d1a52161fda20491/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/openclaw/.gradle/caches/transforms-3/9ce9cc9ec7a9ad1d10874dacacdbb4d1/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/openclaw/.gradle/caches/transforms-3/9ce9cc9ec7a9ad1d10874dacacdbb4d1/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/openclaw/.gradle/caches/transforms-3/e7f9306e767e2d5fbfddd76ed304f07c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/openclaw/.gradle/caches/transforms-3/e7f9306e767e2d5fbfddd76ed304f07c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/openclaw/.gradle/caches/transforms-3/719e6720edfd492a857d7173fd2315ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/openclaw/.gradle/caches/transforms-3/719e6720edfd492a857d7173fd2315ae/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/openclaw/.gradle/caches/transforms-3/57424ed27c8e7568fe16896b8cd45ca5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/openclaw/.gradle/caches/transforms-3/57424ed27c8e7568fe16896b8cd45ca5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/openclaw/.gradle/caches/transforms-3/6adb1280df8d4249bbb50c643cb52a14/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/openclaw/.gradle/caches/transforms-3/6adb1280df8d4249bbb50c643cb52a14/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/openclaw/.gradle/caches/transforms-3/f16bbc16974032fd1ef2b5d3d6a31d0a/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/openclaw/.gradle/caches/transforms-3/f16bbc16974032fd1ef2b5d3d6a31d0a/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/openclaw/.gradle/caches/transforms-3/91114efd43b3626b68fc39325cabc613/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/openclaw/.gradle/caches/transforms-3/91114efd43b3626b68fc39325cabc613/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/openclaw/.gradle/caches/transforms-3/cf8575fc1b02e13cd5b2e453a95cc11e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/openclaw/.gradle/caches/transforms-3/cf8575fc1b02e13cd5b2e453a95cc11e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/openclaw/.gradle/caches/transforms-3/08be2a55cbdb328031620831336b2993/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/openclaw/.gradle/caches/transforms-3/08be2a55cbdb328031620831336b2993/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/openclaw/.gradle/caches/transforms-3/845a56018dfe72f8cdc7621ffae85301/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/openclaw/.gradle/caches/transforms-3/845a56018dfe72f8cdc7621ffae85301/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/openclaw/.gradle/caches/transforms-3/0d2c5eac3751462b720a4fdec745a5b2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/openclaw/.gradle/caches/transforms-3/0d2c5eac3751462b720a4fdec745a5b2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/openclaw/.gradle/caches/transforms-3/349718c988d7e0aa7e11038cd449c6cb/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/openclaw/.gradle/caches/transforms-3/349718c988d7e0aa7e11038cd449c6cb/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/openclaw/.gradle/caches/transforms-3/de903ea69930e2cd1cec89a7c046184f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/openclaw/.gradle/caches/transforms-3/de903ea69930e2cd1cec89a7c046184f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/openclaw/.gradle/caches/transforms-3/71d9f664f76814a26c405a63f4ba2b07/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/openclaw/.gradle/caches/transforms-3/71d9f664f76814a26c405a63f4ba2b07/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/openclaw/.gradle/caches/transforms-3/42966fd5f1da7566290e60484e23c7f5/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/openclaw/.gradle/caches/transforms-3/42966fd5f1da7566290e60484e23c7f5/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/openclaw/.gradle/caches/transforms-3/4d308611c60b23a22143e1418b5d85d7/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/openclaw/.gradle/caches/transforms-3/4d308611c60b23a22143e1418b5d85d7/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/openclaw/.gradle/caches/transforms-3/8799a9309061b7bdd490cee70cc5331e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/openclaw/.gradle/caches/transforms-3/8799a9309061b7bdd490cee70cc5331e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/openclaw/.openclaw/workspace/projects/neon-circuit-trace/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/openclaw/.gradle/caches/transforms-3/08be2a55cbdb328031620831336b2993/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/openclaw/.gradle/caches/transforms-3/08be2a55cbdb328031620831336b2993/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/openclaw/.gradle/caches/transforms-3/0d2c5eac3751462b720a4fdec745a5b2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/openclaw/.gradle/caches/transforms-3/0d2c5eac3751462b720a4fdec745a5b2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/openclaw/.gradle/caches/transforms-3/fd2e1203a98305522125a8a0138bcbc0/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.gamefactory.neoncircuittrace.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.gamefactory.neoncircuittrace.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/openclaw/.gradle/caches/transforms-3/26d293ae2eaf22631a8a9f03192e0b28/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/openclaw/.gradle/caches/transforms-3/08be2a55cbdb328031620831336b2993/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/openclaw/.gradle/caches/transforms-3/08be2a55cbdb328031620831336b2993/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/openclaw/.gradle/caches/transforms-3/08be2a55cbdb328031620831336b2993/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

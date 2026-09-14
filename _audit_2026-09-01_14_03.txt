@@ -1,0 +1,1 @@
+audit_2026-09-01_14:03_UTC: selected hex-flow-connect (r19). Plan-mode docs (spec.md, technical-plan.md, tasks.md, CODEX_EVIDENCE.md) present from prior cycle. Repo https://github.com/iamconanpeter/hex-flow-connect exists; no new codex build performed (queue exhaustion — no new conceptRank added); no new push. NO_REPLY per factory rule.

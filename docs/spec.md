@@ -1,36 +1,33 @@
-# Hex Flow Connect — Spec (Plan-Mode) — conceptRank 19
+# Hex Flow Connect — Spec (Plan Mode)
 
-## Q&A Discovery (Assumptions)
-- **10-second hook:** Draw a single continuous line across a hex honeycomb to connect matching colored endpoints; bridges let paths cross.
-- **Daily/weekly loop:** Daily deterministic seed (SHA-256 of YYYY-MM-DD) → fixed board; replay for star mastery.
-- **Session length:** 30s–3m (depends on board size 3×3 / 5×5 / 7×7).
-- **Skill vs luck:** Skill (path planning, no revisits) dominates; seed only sets board, not outcome.
-- **Fail-state fairness:** One undo token (future), instant restart, no time pressure in MVP.
-- **Difficulty ramp:** Board size 3→5→7 via seed; more nodes = longer path.
-- **Distinctive mechanic vs clones:** Hex axial topology + single-stroke constraint (no revisits) vs square-grid clones.
-- **Art/animation scope:** Abstract hex nodes with color endpoints; minimal assets; <16ms frame target.
-- **Audio/feedback:** Soft chime on valid path, soft pulse on invalid step (future).
-- **Monetization-safe:** No dark patterns; optional star-based progress tracking only.
-- **Constraints:** Java 11, Android SDK available at /home/openclaw/android-sdk.
+ConceptRank: 19 · Hex-grid path-connect puzzle (single-stroke line connecting matching colored nodes across honeycomb board; bridges, blockers, color-mixing rules; deterministic daily seeds; par-move mastery; color-blind safe palettes).
 
-## USP
-Single-stroke hex topology with axial adjacency creates uniquely spatial reasoning vs square-grid path clones.
+## Q&A Discovery (derived from iOS reference + Android gap notes; assumptions marked [A])
 
-## 3 Differentiators
-1. Hex axial topology (not square grid)
-2. Deterministic daily seed for fair leaderboards
-3. Single-stroke, no-revisit constraint (tactical planning)
+- Q: Core fantasy / 10-second hook? A: Draw one continuous line across a hex grid connecting same-colored nodes — feels like “connect the constellation” with geometric satisfying closure.
+- Q: Why come back? A: Daily seeded board (fair global par + leaderboard); master a board with fewer moves; undo token preserves fairness.
+- Q: Session target? A: 1–3 min per board; instant restart; low battery / offline.
+- Q: Skill vs luck? A: Mostly skill; seed is deterministic (no randomness in outcome); difficulty ramped by board size / blocker density.
+- Q: Fail-state frustration control? A: No streak-loss punishment; one undo token; clear “no valid path” end-state keeps failure readable.
+- Q: Difficulty ramp? A: 3 levels (small 4×4 → medium 6×6 with bridges → large 8×8 with color-mix + blockers).
+- Q: Distinctive mechanic vs Android clones? A: Hex topology (not square grid) + single-stroke constraint; daily seed + par-move mastery.
+- Q: Art / animation scope (MVP)? A: Minimal flat geometric hex tiles, 2-color safe palette; particle flash on complete; no complex 3D / audio.
+- Q: Audio / feedback? A: Short “connect” chime + subtle haptic; muted by default.
+- Q: Monetization-safe design? A: No dark patterns; fully offline; optional future ad slot after completed board, not interrupted.
+- Q: Technical constraints? A: Android minSdk 24 / compileSdk 34, Kotlin + JUnit4; single-module; <16ms frame, no external dependencies beyond core-ktx.
 
-## 3 Retention Hooks
-1. Daily deterministic seed board + star mastery (1–3 stars)
-2. Replay same seed for improvement (streak-safe)
-3. Variable challenge via board size rotation
+## Assumptions [A]
+- [A] Daily seed derived from UTC date (same method as Lantern Link / Switchboard Spark).
+- [A] Hex board represented as even-q axial coordinate grid; adjacency 6 directions.
+- [A] Color-blind-safe palette: 5 clearly distinct colors + shape markers (no red/green only pairs).
+- [A] Undo = replay of last stroke; stored in GameState (not persisted across restarts).
 
-## 3 Quality Bars
-1. Frame budget <16ms (light weight)
-2. Readable hex nodes + endpoint colors
-3. Instant restart + deterministic fairness
+## Differentiation (USP + 3)
+- USP: “Single-stroke hex-connect with deterministic daily seeds and par-move mastery.”
+- Differentiators: (1) Hex grid (not square) forces different spatial reasoning; (2) Daily seed = fair global comparison; (3) Undo token + star-rating by move count = fairness-first mastery.
+- Retention hooks: (1) Daily challenge seed loop; (2) Star/par progression per board; (3) Global leaderboard potential via deterministic scores.
+- Quality bars: (1) <16ms per frame / smooth swipe; (2) Readable hex nodes / color + shape; (3) Instant restart / fairness undo.
 
-## MVP Scope
-- HexCell, DailySeedGenerator, GameEngine, HexBoardTest (4 assertions)
-- Build passes (SDK fixed); repo: iamconanpeter/hex-flow-connect
+## MVP Scope Guardrail
+In: hex grid drawing (touch-to-draw path), color-match validation, 3 board sizes, daily seed, one undo, JUnit4 tests (HexBoard, PathValidator, GameEngine, DailySeedGenerator), build/test pass.
+Post-MVP: leaderboard, more board packs, color-mix advanced rules, sound design.

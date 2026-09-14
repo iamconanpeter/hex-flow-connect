@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="neon_active">#FFFFFF</color>
+    <color name="neon_bg">#0D0D1A</color>
+    <color name="neon_junction">#FFFF00</color>
+    <color name="neon_node">#00FFFF</color>
+    <color name="neon_source">#00FF88</color>
+    <color name="neon_target">#FF8800</color>
+    <color name="neon_trace">#FF00FF</color>
+    <color name="neon_wire">#333355</color>
+    <string name="app_name">Neon Circuit Trace</string>
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#0D0D1A</item>
+        <item name="colorPrimaryDark">#0D0D1A</item>
+        <item name="colorAccent">#00FFFF</item>
+        <item name="android:windowBackground">#0D0D1A</item>
+    </style>
+</resources>
